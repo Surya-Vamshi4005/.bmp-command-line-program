@@ -25,7 +25,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
     for (int i = 0; i < height; i++)
     {
-        // Its just reversing the array in every row.
+        // It's reversing the array in every row.
         for (int j = 0; j < width / 2; j++)
         {
             int temp1 = image[i][j].rgbtRed;
